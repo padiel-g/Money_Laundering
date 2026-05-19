@@ -1,0 +1,32 @@
+{
+  "summary": "End-to-end testing of AML Detection Platform. 13/13 backend pytest tests passed (auth, stats, transactions+filters, tx detail with DL/NLP/graph analysis, alerts list+patch, graph network ego subgraph, SAR create+list, scan/run, unauthorized). Frontend flow verified: login -> dashboard KPIs (171 tx, 50 flagged, 49 open alerts), Run Detection Scan, Transactions table (171 rows), Investigation page (50 flagged tx in side list, network-graph rendered, File SAR works), Alerts (50 rows, Review status update works), SARs page lists filed SAR, Logout returns to /login. No JS console/page errors.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [
+      {"component": "Investigation", "issue": "When navigating from Transactions row of a non-flagged tx, page shows 'No flagged tx' and 0 nodes/0 edges in graph (graph endpoint with that account returns empty subgraph). Recommend falling back to flagged-only view or showing the selected tx context.", "selector": "[data-testid=network-graph]", "priority": "LOW"},
+      {"component": "Alerts", "issue": "After clicking Review (status -> under_review) the alert row is re-rendered without a 'Resolve' button until the status filter is changed; alert-resolve-{id} not visible for under_review rows in default 'open' filter.", "selector": "[data-testid^=alert-resolve-]", "priority": "LOW"}
+    ],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": ["/app/backend/tests/backend_test.py", "/app/test_reports/pytest/pytest_results.xml"],
+  "action_items": [
+    "(Optional UX) Investigation page: when ?tx= refers to a non-flagged tx, still render the selected tx detail and an ego graph instead of showing empty state.",
+    "(Optional UX) Alerts page: keep Resolve button visible for under_review rows OR auto-switch the filter after Review is clicked."
+  ],
+  "critical_code_review_comments": [
+    "server.py is a single 618-line module mixing auth, seeding, detection, and routes. Recommend splitting into routes/, detection/, models/, auth/ for maintainability.",
+    "run_full_scan rebuilds the NetworkX graph for every transaction inside graph_score (O(N^2)); for 171 tx this is fine but it will not scale. Build the graph once and pass it in.",
+    "GET /api/transactions/{tx_id} calls Emergent LLM (gpt-4o-mini) on every request -- no caching. Repeated investigation views will incur cost/latency. Consider caching nlp result per tx.",
+    "Alert reasons concatenate signals but never include the NLP LLM 'explanation'; consider surfacing it on the detail page.",
+    "/api/scan/run wipes all alerts every run, losing operator notes/review status. Consider upsert by transaction_id."
+  ],
+  "updated_files": ["/app/backend/tests/backend_test.py"],
+  "success_rate": {"backend": "100%", "frontend": "100%"},
+  "test_credentials": "officer@rbz.co.zw / aml2026 (seeded)",
+  "seed_data_creation": "Backend auto-seeds 171 Zimbabwean tx incl. structuring, layering chain, fan-out patterns on first startup. One TEST_ SAR was created during testing.",
+  "retest_needed": false,
+  "main_agent_can_self_test": true,
+  "context_for_next_testing_agent": "All 13 pytest tests in /app/backend/tests/backend_test.py pass against REACT_APP_BACKEND_URL. Frontend flows verified via Playwright. Any retest just needs to run pytest and the same login flow. Investigation page renders properly only when ?tx= points to a flagged transaction.",
+  "rca of the issue": "N/A - no critical bugs found."
+}

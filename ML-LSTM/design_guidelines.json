@@ -1,0 +1,138 @@
+{
+  "theme": "light",
+  "archetype": "Archetype 4 (Swiss & High-Contrast)",
+  "design_philosophy": "Objective, rigid, and functional. An authoritative 'Control Room' for Zimbabwean AML compliance officers. Priority is data density, high-contrast alerts, and zero visual fluff.",
+  "colors": {
+    "background": "#F8FAFC", 
+    "surface": "#FFFFFF",
+    "surface_alt": "#F1F5F9",
+    "primary": "#002FA7", 
+    "primary_foreground": "#FFFFFF",
+    "secondary": "#E2E8F0",
+    "secondary_foreground": "#0F172A",
+    "accent": "#002FA7",
+    "muted": "#F1F5F9",
+    "muted_foreground": "#64748B",
+    "border": "#CBD5E1",
+    "input": "#E2E8F0",
+    "ring": "#002FA7",
+    "text": {
+      "main": "#0F172A",
+      "muted": "#475569",
+      "inverse": "#FFFFFF"
+    },
+    "status": {
+      "high_risk": "#E11D48", 
+      "high_risk_bg": "#FFE4E6",
+      "medium_risk": "#D97706",
+      "medium_risk_bg": "#FEF3C7",
+      "low_risk": "#059669",
+      "low_risk_bg": "#D1FAE5",
+      "info": "#0284C7",
+      "info_bg": "#E0F2FE"
+    }
+  },
+  "typography": {
+    "font_family": {
+      "heading": "'Chivo', sans-serif",
+      "body": "'IBM Plex Sans', sans-serif",
+      "mono": "'IBM Plex Mono', monospace"
+    },
+    "scale": {
+      "h1": "text-4xl font-black tracking-tighter text-slate-900",
+      "h2": "text-2xl font-bold tracking-tight text-slate-900",
+      "h3": "text-xl font-semibold tracking-tight text-slate-800",
+      "h4": "text-lg font-medium text-slate-800",
+      "body": "text-sm md:text-base leading-relaxed text-slate-700",
+      "small": "text-xs font-medium uppercase tracking-[0.2em] text-slate-500",
+      "data": "font-mono text-sm tracking-tight"
+    }
+  },
+  "spacing_and_layout": {
+    "strategy": "The 'Control Room' Grid",
+    "container_padding": "p-6",
+    "grid_gap": "gap-4 md:gap-6",
+    "radius": "rounded-none md:rounded-sm",
+    "borders": "border border-slate-200",
+    "shadows": "shadow-none",
+    "surface_style": "Grid Borders (Technical Look). Use visible structural borders to separate widgets instead of floating soft cards."
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-blue-800 text-white hover:bg-blue-900 rounded-sm font-semibold transition-colors",
+      "destructive": "bg-rose-600 text-white hover:bg-rose-700 rounded-sm font-semibold transition-colors",
+      "outline": "border-2 border-slate-300 text-slate-700 hover:border-slate-400 hover:bg-slate-50 rounded-sm transition-colors"
+    },
+    "cards": {
+      "default": "bg-white border border-slate-200 rounded-sm p-5",
+      "header": "pb-4 border-b border-slate-100 mb-4",
+      "interactive": "hover:border-blue-300 hover:bg-slate-50 transition-all cursor-pointer"
+    },
+    "badges": {
+      "risk_high": "bg-rose-100 text-rose-700 border border-rose-200 font-mono text-xs font-bold px-2 py-0.5 rounded-sm uppercase",
+      "risk_medium": "bg-amber-100 text-amber-700 border border-amber-200 font-mono text-xs font-bold px-2 py-0.5 rounded-sm uppercase",
+      "risk_low": "bg-emerald-100 text-emerald-700 border border-emerald-200 font-mono text-xs font-bold px-2 py-0.5 rounded-sm uppercase"
+    },
+    "tables": {
+      "header": "bg-slate-50 text-slate-500 font-mono text-xs uppercase tracking-wider border-b border-slate-200",
+      "cell": "py-3 px-4 text-sm text-slate-700 border-b border-slate-100 font-mono"
+    },
+    "forms": {
+      "input": "border border-slate-300 rounded-sm px-3 py-2 focus:ring-2 focus:ring-blue-800 focus:border-blue-800 focus:outline-none transition-all",
+      "label": "text-xs font-bold uppercase tracking-wider text-slate-600 mb-1 block"
+    }
+  },
+  "visual_features": {
+    "graph_network_visualization": {
+      "library": "react-force-graph-2d",
+      "rationale": "2D provides better analytical clarity for compliance officers than 3D. 3D can obscure layering chains.",
+      "styling": "Nodes representing accounts should be solid circles. Suspect nodes in Signal Red (#E11D48), Bank nodes in Klein Blue (#002FA7). Edges representing transactions should be gray (#CBD5E1) with directional arrows, thickness representing transaction volume."
+    },
+    "nlp_analysis": {
+      "styling": "Text blocks showing transaction descriptions should use 'IBM Plex Mono'. Suspicious keywords (e.g., 'urgent', 'loan repayment', 'offshore') should be highlighted with a pale red background (#FFE4E6) and dark red text (#9F1239)."
+    },
+    "alerts_feed": {
+      "styling": "A dense, scrolling list of alerts. Use a subtle pulse animation (animate-pulse) on the left border of unread High-Risk alerts."
+    }
+  },
+  "animations": {
+    "hover": "transition-all duration-200 ease-in-out",
+    "entrance": "animate-in fade-in slide-in-from-bottom-2 duration-300",
+    "alert_pulse": "animate-pulse border-l-4 border-rose-600"
+  },
+  "media_and_icons": {
+    "icon_library": "@phosphor-icons/react",
+    "icon_rationale": "Phosphor Icons provide a dense, professional look ideal for data-heavy RegTech tools.",
+    "images": {
+      "login_background": {
+        "url": "https://images.unsplash.com/photo-1662831328181-8d2df5898ad4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwxfHxoYXJhcmUlMjBza3lsaW5lfGVufDB8fHx8MTc3NzQxNTc0N3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Harare skyline to ground the app in its Zimbabwean context. Use with a heavy white overlay (bg-white/80 backdrop-blur-md) on the login screen to maintain high contrast for the login card."
+      },
+      "user_avatars": [
+        {
+          "url": "https://images.unsplash.com/photo-1739300293504-234817eead52?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHw0fHxhZnJpY2FuJTIwYnVzaW5lc3MlMjBwcm9mZXNzaW9uYWx8ZW58MHx8fHwxNzc3NDE1NzQ3fDA&ixlib=rb-4.1.0&q=85",
+          "description": "Compliance Officer Profile Avatar 1"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1758519291531-e96279895745?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwzfHxhZnJpY2FuJTIwYnVzaW5lc3MlMjBwcm9mZXNzaW9uYWx8ZW58MHx8fHwxNzc3NDE1NzQ3fDA&ixlib=rb-4.1.0&q=85",
+          "description": "Compliance Officer Profile Avatar 2"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1616804827035-f4aa814c14ac?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwYnVzaW5lc3MlMjBwcm9mZXNzaW9uYWx8ZW58MHx8fHwxNzc3NDE1NzQ3fDA&ixlib=rb-4.1.0&q=85",
+          "description": "Compliance Officer Profile Avatar 3"
+        }
+      ]
+    }
+  },
+  "instructions_to_main_agent": [
+    "Build the dashboard using a strict grid system (e.g., grid-cols-12). Avoid soft, floating cards; use border-collapse styles where items touch, or tight gaps with sharp 1px borders.",
+    "Data density is critical. Do not waste space. Use 'IBM Plex Mono' for all numerical data, transaction IDs, and timestamps to ensure vertical alignment in tables.",
+    "For the Network Graph, integrate 'react-force-graph-2d'. Make it central to the investigation view. Add controls to filter by Bank (CBZ, Stanbic, etc.) or Mobile Money (EcoCash, InnBucks).",
+    "The Deep Learning Risk Score should be highly visible as a gauge or progress bar, using the strict Red/Yellow/Green status colors.",
+    "For the NLP Panel, display transaction narratives as raw text strings but visually highlight flagged keywords (e.g., '<span className=\"bg-rose-100 text-rose-800 font-bold px-1\">loan repayment</span>').",
+    "Use Phosphor Icons (yarn add @phosphor-icons/react) to ensure a precise, technical look.",
+    "Ensure all interactive elements have 'data-testid' attributes (e.g., 'data-testid=\"alert-resolve-button\"').",
+    "Avoid purples or teals. Stick to the Swiss high-contrast palette: Stark White, Slate Gray, Klein Blue, Signal Red.",
+    "File extensions should be .js and .jsx, as the project uses JavaScript."
+  ]
+}

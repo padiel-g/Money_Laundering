@@ -1,0 +1,34 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: aml-backend
+    restart: unless-stopped
+    ports:
+      - "8001:8001"
+    environment:
+      SQLITE_PATH: /app/data/aml.db
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+      EMERGENT_LLM_KEY: ${EMERGENT_LLM_KEY:-}
+      JWT_SECRET: ${JWT_SECRET:-change-me-in-production}
+    volumes:
+      - aml_data:/app/data
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        REACT_APP_BACKEND_URL: ${REACT_APP_BACKEND_URL:-http://localhost:8001}
+    container_name: aml-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+volumes:
+  aml_data:

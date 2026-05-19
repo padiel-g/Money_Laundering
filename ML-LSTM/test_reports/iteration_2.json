@@ -1,0 +1,31 @@
+{
+  "summary": "Re-verified AML Detection Platform after migration from MongoDB to SQLite. All 17 backend pytest tests pass against REACT_APP_BACKEND_URL incl. new tests for: GET /api/ returns 'database': 'sqlite', export.csv has >=172 lines (header + 171 rows), nlp_keywords/dl_signals/graph_signals come back as actual arrays (not stringified JSON), and SAR transaction_ids is a list. Frontend Playwright run: login -> dashboard (KPIs: 171 tx / 47 flagged / 47 open alerts / 4 SARs filed) -> Transactions (171 rows + Export CSV download works, file=aml_transactions.csv) -> Alerts (Review button updates status) -> SARs (lists SAR-ZW filed reports) -> Investigation (loads). No JS page errors.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [
+      {"component": "Dashboard - Risk Distribution", "issue": "Donut/pie chart area appears empty; only numeric counts (HIGH/MEDIUM/LOW = 9/38/124) render below. Might be a Recharts data wiring issue but stats endpoint returns counts correctly. Worth visual confirmation.", "selector": "Risk Distribution card", "priority": "LOW"}
+    ],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": ["/app/backend/tests/backend_test.py", "/app/test_reports/pytest/pytest_results.xml"],
+  "action_items": [
+    "Optional: confirm Risk Distribution donut renders (data is present in /api/dashboard/stats: high=9, medium=38, low=124). Likely a chart-component mounting issue when value is computed asynchronously.",
+    "Carry-over from iter 1 (still applicable): /api/scan/run wipes alerts (loses operator notes/under_review state); GET /api/transactions/{id} re-runs LLM every call (no caching, ~6-15s latency)."
+  ],
+  "critical_code_review_comments": [
+    "server.py is now ~820 lines (mixed: schema, seed, detection, routes). Splitting into routes/, detection/, db/, auth/ modules would help maintainability.",
+    "init_schema does not have a migrations table; future schema changes (e.g. adding columns) will require manual ALTER TABLE handling.",
+    "nlp_score uses 8s LLM timeout but tx_detail endpoint had to be bumped to 60s for tests because each detail call still re-runs detection on entire dataset; consider serving stored risk + signals from the row and only rerunning analysis on demand.",
+    "PRAGMA foreign_keys=ON is set but no FK is declared between alerts.transaction_id and transactions.id, nor between sars.transaction_ids and transactions.id; orphan alerts are possible.",
+    "EmailStr in LoginIn requires email-validator; fine here, but ensure requirements pin it to avoid runtime ImportError on fresh deploys."
+  ],
+  "updated_files": ["/app/backend/tests/backend_test.py"],
+  "success_rate": {"backend": "100% (17/17)", "frontend": "100% (all critical flows pass)"},
+  "test_credentials": "officer@rbz.co.zw / aml2026 (auto-seeded on first SQLite startup)",
+  "seed_data_creation": "171 tx auto-loaded from /app/data/transactions.json into SQLite (/app/data/aml.db). 47 alerts generated. 4 SARs visible (incl. TEST_ ones from earlier runs).",
+  "retest_needed": false,
+  "main_agent_can_self_test": true,
+  "context_for_next_testing_agent": "SQLite migration is functionally identical to the prior Mongo build. All API contracts validated, including list-typed fields decoded via json.loads in _tx_from_row / list_sars. Run: pytest /app/backend/tests/backend_test.py. Use REACT_APP_BACKEND_URL from /app/frontend/.env.",
+  "rca of the issue": "N/A - migration verified, no critical issues. Only adjustment was bumping test_tx_detail timeout from 30s to 60s because /api/transactions/{id} re-invokes Emergent LLM (gpt-4o-mini) every call."
+}

@@ -1,0 +1,172 @@
+id,timestamp,sender_account,sender_name,sender_institution,receiver_account,receiver_name,receiver_institution,amount,currency,description,channel
+02c54ade-504b-4dd8-ab57-36d6490b43b6,2026-04-15T07:46:57.613095+00:00,CBZ-52339391,Blessing Mukamuri,CBZ Bank,STA-60806024,Tafadzwa Chiwenga,Stanbic Bank,385.81,USD,Insurance premium,bank
+94318bf4-5586-4650-847d-5bf8b66a6864,2026-04-15T08:51:46.613095+00:00,+263794335942,Privilege Mhlanga,InnBucks,+263773396987,Munyaradzi Sibanda,OneMoney,1244.88,USD,Salary payment,mobile_money
+9ae41130-cce4-4499-9bc2-34087df3f3d4,2026-04-15T10:01:39.613095+00:00,CBZ-52339391,Blessing Mukamuri,CBZ Bank,CBZ-24716857,Farai Mutasa,CBZ Bank,602.48,USD,School fees term 1,bank
+aedb42cc-0bdb-4610-9034-3ae75d9e137c,2026-04-15T15:23:40.613095+00:00,ZB -70291817,Hope Mukamuri,ZB Bank,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,979.96,USD,Funeral cover,bank
+0be6e5f8-974e-485f-ae9a-bf951451d7c5,2026-04-15T18:05:20.613095+00:00,NED-38538251,Simbarashe Mhlanga,Nedbank ZW,FBC-20709497,Tinashe Chirwa,FBC Bank,1253.19,USD,Internet bill ZOL,bank
+7b9e0f53-d7fe-4bdd-82c6-7c6498d2e372,2026-04-15T21:45:22.613095+00:00,CBZ-31429110,Tapiwa Dube,CBZ Bank,STA-58181396,Shamiso Marufu,Stanbic Bank,1447.26,USD,Grocery purchase Pick n Pay,bank
+ff9cda0c-6f39-4878-b452-2d6b6c91f15a,2026-04-15T22:30:23.613095+00:00,+263797700828,Shamiso Chigumba,EcoCash,FBC-30868105,Kudzai Madondo,FBC Bank,1471.18,USD,Funeral cover,mobile_money
+6d318548-15b7-4a32-becd-c84899492e30,2026-04-15T23:42:20.613095+00:00,CBZ-24716857,Farai Mutasa,CBZ Bank,NED-87490893,Kudzai Zhou,Nedbank ZW,413.04,USD,Internet bill ZOL,bank
+8a7fa23f-812c-40b3-92ba-ba941c85008a,2026-04-16T12:23:24.613095+00:00,FBC-94374605,Anesu Nyathi,FBC Bank,FBC-20709497,Tinashe Chirwa,FBC Bank,760.59,USD,Medical aid premium,bank
+37be3418-f9de-41d8-b356-3312d31153b1,2026-04-16T16:05:55.613095+00:00,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,+263785218028,Privilege Chirwa,InnBucks,96.13,USD,Electricity ZESA token,mobile_money
+cbc9d51e-8d44-47df-863c-2ae8b084c363,2026-04-16T20:05:43.613095+00:00,+263777402509,Anesu Banda,EcoCash,ZB -85345555,Privilege Mukamuri,ZB Bank,185.9,USD,Rent payment Avondale,mobile_money
+f1640298-05ea-49a9-9fc5-dfc15fdb95a8,2026-04-16T22:42:50.613095+00:00,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,STE-66661351,Anesu Ncube,Steward Bank,124.77,USD,School fees term 1,bank
+058bf978-daa0-4490-8fe8-7fc9fe3b4b32,2026-04-16T22:58:03.613095+00:00,+263792458591,Hope Mhlanga,InnBucks,FBC-95899313,Privilege Chigumba,FBC Bank,801.45,USD,Electricity ZESA token,mobile_money
+17ecb8e2-51fa-481e-9831-3cfe27edd4f3,2026-04-17T02:37:48.613095+00:00,ZB -85345555,Privilege Mukamuri,ZB Bank,+263773396987,Munyaradzi Sibanda,OneMoney,843.56,USD,Grocery purchase Pick n Pay,mobile_money
+941c9ee4-ced3-481c-a4ca-2e5227410a14,2026-04-17T03:04:07.613095+00:00,ZB -99949389,Munyaradzi Zhou,ZB Bank,CBZ-52339391,Blessing Mukamuri,CBZ Bank,598.0,USD,Rent payment Avondale,bank
+b8c57364-a702-4320-8158-e94e46a79804,2026-04-17T04:40:36.613095+00:00,ZB -99949389,Munyaradzi Zhou,ZB Bank,STA-16150444,Tinashe Madondo,Stanbic Bank,91.6,USD,Family support,bank
+dd12d7ea-e9c1-4b88-8543-481e8bf64ec1,2026-04-17T06:48:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,9864.54,USD,Shell company invoice payment offshore,bank
+c6790f92-9060-4638-9962-a2fece634fc1,2026-04-17T06:49:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263794335942,Privilege Mhlanga,InnBucks,8607.42,USD,Urgent transfer offshore consultancy,mobile_money
+dfc7b9e7-a305-4ce4-8c16-6d61622e39ee,2026-04-17T06:51:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263792458591,Hope Mhlanga,InnBucks,8994.02,USD,Urgent transfer offshore consultancy,mobile_money
+93deadc7-9c3c-403c-b12f-606845af37b3,2026-04-17T06:54:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -28728463,Rumbi Mutasa,ZB Bank,8912.29,USD,Shell company invoice payment offshore,bank
+06e8c29a-1654-4c1a-9ec3-41ab3b385bdd,2026-04-17T06:54:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -77827638,Anesu Moyo,ZB Bank,9692.07,USD,Smurfing settlement under threshold,bank
+d227eb46-6be6-4af3-9fc2-0ed05a0fd8b8,2026-04-17T07:18:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -28728463,Rumbi Mutasa,ZB Bank,8716.34,USD,Consultancy fee untraceable cash withdrawal,bank
+51472c57-85b0-464c-9e48-cb8fde65a313,2026-04-17T07:21:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -77827638,Anesu Moyo,ZB Bank,9051.55,USD,Shell company invoice payment offshore,bank
+c1330236-698e-448b-8194-7753e92f116c,2026-04-17T07:21:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263794335942,Privilege Mhlanga,InnBucks,9747.24,USD,Smurfing settlement under threshold,mobile_money
+d9fc771d-8c05-4766-8f87-ba9a1df11958,2026-04-17T07:25:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263792458591,Hope Mhlanga,InnBucks,9941.18,USD,Loan repayment cash settlement immediate,mobile_money
+eb5bf05b-e999-4c4c-9098-1cd803b9eb0e,2026-04-17T07:25:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,9608.44,USD,Crypto trade urgent settlement,bank
+8cba2330-cc3e-4dfc-bb66-ec3a96dda4dc,2026-04-17T07:47:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263794335942,Privilege Mhlanga,InnBucks,9300.39,USD,Personal favor wire transfer no questions,mobile_money
+8c29189a-cb3a-4f46-9e2e-ecfd0b75ae3d,2026-04-17T07:49:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -77827638,Anesu Moyo,ZB Bank,8617.72,USD,Crypto trade urgent settlement,bank
+9a40db86-9cf7-4a3e-9f79-28cc5d804131,2026-04-17T07:50:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263792458591,Hope Mhlanga,InnBucks,9892.16,USD,Loan repayment cash settlement immediate,mobile_money
+4b2ef408-0da1-4c05-b7cd-4fb343c44283,2026-04-17T07:56:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -28728463,Rumbi Mutasa,ZB Bank,9324.51,USD,Urgent transfer offshore consultancy,bank
+310d49df-9290-43bc-80f1-e5f71a1c57e2,2026-04-17T07:57:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,9407.0,USD,Consultancy fee untraceable cash withdrawal,bank
+3a41444f-7a85-45b1-99c2-8f576ab5bac5,2026-04-17T08:18:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,9519.33,USD,Shell company invoice payment offshore,bank
+5d3c5f7f-d374-464f-8e0f-634f333e2d77,2026-04-17T08:21:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -28728463,Rumbi Mutasa,ZB Bank,9092.35,USD,Shell company invoice payment offshore,bank
+bd70c135-9a1f-4b61-b617-8efbd0f1f4cc,2026-04-17T08:21:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263792458591,Hope Mhlanga,InnBucks,8547.33,USD,Consultancy fee untraceable cash withdrawal,mobile_money
+58ac1ef3-5682-43dc-b20f-114650707b54,2026-04-17T08:23:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263794335942,Privilege Mhlanga,InnBucks,9355.19,USD,Crypto trade urgent settlement,mobile_money
+f5283ed9-71ad-4a45-9ec3-54a9f2fccc1f,2026-04-17T08:27:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -77827638,Anesu Moyo,ZB Bank,9496.71,USD,Consultancy fee untraceable cash withdrawal,bank
+d6fcf739-d46b-4801-9c95-acd3a2fb4a4d,2026-04-17T08:40:14.613095+00:00,STA-61019678,Munyaradzi Banda,Stanbic Bank,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,777.36,USD,Rent payment Avondale,bank
+91e4b6a5-3423-4d1f-b537-17cec961b811,2026-04-17T08:49:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263792458591,Hope Mhlanga,InnBucks,8716.03,USD,Consultancy fee untraceable cash withdrawal,mobile_money
+e5bc0af0-9852-4d38-ad3c-8662779bd19d,2026-04-17T08:51:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,8603.54,USD,Personal favor wire transfer no questions,bank
+c73dedb3-2363-4c87-aff1-90945516d40f,2026-04-17T08:53:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263794335942,Privilege Mhlanga,InnBucks,8680.31,USD,Consultancy fee untraceable cash withdrawal,mobile_money
+86aaeeb7-3b9b-4c32-a576-1bd362cb23c0,2026-04-17T08:54:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -77827638,Anesu Moyo,ZB Bank,9362.81,USD,Consultancy fee untraceable cash withdrawal,bank
+91c2bbf5-6228-4495-bd07-dae29656be1c,2026-04-17T08:57:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -28728463,Rumbi Mutasa,ZB Bank,8666.43,USD,Crypto trade urgent settlement,bank
+4b943df8-4ea6-4521-9cc6-fb824de95c7e,2026-04-17T09:18:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -77827638,Anesu Moyo,ZB Bank,9375.38,USD,Urgent transfer offshore consultancy,bank
+777784a6-e397-4609-922a-98e6e176a152,2026-04-17T09:22:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,8557.8,USD,Smurfing settlement under threshold,bank
+f8988ae3-e744-41e2-a1f2-a04b66d4989c,2026-04-17T09:25:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -28728463,Rumbi Mutasa,ZB Bank,9866.88,USD,Gift remittance multiple parties large,bank
+38010b44-bece-4e09-ac36-2b19dc5ac4d7,2026-04-17T09:26:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263792458591,Hope Mhlanga,InnBucks,9216.0,USD,Loan repayment cash settlement immediate,mobile_money
+e1e52c74-e361-4163-ba1a-137c21d82c85,2026-04-17T09:27:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263794335942,Privilege Mhlanga,InnBucks,8831.94,USD,Urgent transfer offshore consultancy,mobile_money
+304aaa16-9e54-46e0-ab91-b878dee4ec59,2026-04-17T09:49:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -28728463,Rumbi Mutasa,ZB Bank,9691.06,USD,Urgent transfer offshore consultancy,bank
+036b241e-6b2d-457a-9d6d-9b67fc791cfd,2026-04-17T09:51:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263792458591,Hope Mhlanga,InnBucks,9182.23,USD,Shell company invoice payment offshore,mobile_money
+eb49850f-02a0-48d8-913b-4df6b5db8670,2026-04-17T09:52:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263794335942,Privilege Mhlanga,InnBucks,9004.54,USD,Quick deposit then split transfers,mobile_money
+7c068568-5d34-43e8-9fce-36e7bcf601e9,2026-04-17T09:54:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -77827638,Anesu Moyo,ZB Bank,9680.66,USD,Loan repayment cash settlement immediate,bank
+4a21329e-e9f8-46f0-b0c2-fb11e1875aa2,2026-04-17T09:57:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,8763.16,USD,Smurfing settlement under threshold,bank
+7c236cf9-a866-461c-86fc-fa8081e6a740,2026-04-17T10:21:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263792458591,Hope Mhlanga,InnBucks,9096.89,USD,Shell company invoice payment offshore,mobile_money
+4c8599ca-00f2-42d7-83c0-9ca23e54ee3b,2026-04-17T10:22:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -28728463,Rumbi Mutasa,ZB Bank,9471.69,USD,Personal favor wire transfer no questions,bank
+8b8aa4aa-2bb0-4ec6-a3fb-708b4990068a,2026-04-17T10:22:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -77827638,Anesu Moyo,ZB Bank,8553.21,USD,Loan repayment cash settlement immediate,bank
+0fad624b-ed5d-4c7b-a946-ccb83bdff77b,2026-04-17T10:23:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,+263794335942,Privilege Mhlanga,InnBucks,8865.98,USD,Loan repayment cash settlement immediate,mobile_money
+a78de5f1-3232-4e49-8094-f2ab740b7521,2026-04-17T10:25:51.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,9460.75,USD,Smurfing settlement under threshold,bank
+73a1089e-3a80-4873-9abd-bd9794519575,2026-04-17T16:07:48.613095+00:00,+263773396987,Munyaradzi Sibanda,OneMoney,NED-38538251,Simbarashe Mhlanga,Nedbank ZW,703.2,USD,Salary payment,mobile_money
+46d211c3-3c1e-43da-af96-25468193da18,2026-04-17T18:40:44.613095+00:00,+263792458591,Hope Mhlanga,InnBucks,FBC-95899313,Privilege Chigumba,FBC Bank,319.06,USD,Rent payment Avondale,mobile_money
+b8b67d5a-7eca-4793-8167-bf55e0c90847,2026-04-18T01:26:03.613095+00:00,ZB -28728463,Rumbi Mutasa,ZB Bank,NED-23718431,Tafadzwa Mhlanga,Nedbank ZW,361.62,USD,Internet bill ZOL,bank
+bbd597df-d543-4397-9bdc-fe3f11fb5f79,2026-04-18T02:09:57.613095+00:00,STA-91756179,Nyasha Chiwenga,Stanbic Bank,+263773396987,Munyaradzi Sibanda,OneMoney,911.28,USD,Funeral cover,mobile_money
+8acb855b-d4bc-4641-ad4a-0d4bc54366e3,2026-04-18T05:19:01.613095+00:00,STA-16150444,Tinashe Madondo,Stanbic Bank,ZB -70291817,Hope Mukamuri,ZB Bank,1047.3,USD,Medical aid premium,bank
+aa0fcdfe-3481-40f2-97af-5238651c192a,2026-04-18T08:03:29.613095+00:00,+263794335942,Privilege Mhlanga,InnBucks,CBZ-24716857,Farai Mutasa,CBZ Bank,1224.95,USD,Funeral cover,mobile_money
+1ec47462-2ad8-4888-82fc-96311df5cc18,2026-04-18T08:32:14.613095+00:00,NED-17507864,Tinashe Chirwa,Nedbank ZW,FBC-15831819,Ruvimbo Chiwenga,FBC Bank,456.89,USD,Funeral cover,bank
+bfe0d4a3-c86b-4859-87c4-c16fb25cadb9,2026-04-18T13:50:53.613095+00:00,STA-38317637,Hope Nyathi,Stanbic Bank,ZB -28728463,Rumbi Mutasa,ZB Bank,130.5,USD,Insurance premium,bank
+ddda87b0-ad43-4197-92f8-90597cb698ac,2026-04-18T23:55:16.613095+00:00,ZB -70291817,Hope Mukamuri,ZB Bank,+263773396987,Munyaradzi Sibanda,OneMoney,1441.38,USD,Internet bill ZOL,mobile_money
+3b8e5048-f597-4b9d-84ac-80fe56fb9752,2026-04-19T02:30:31.613095+00:00,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,STE-78387461,Simbarashe Ncube,Steward Bank,756.76,USD,Funeral cover,bank
+3821d875-249b-4e98-88ca-e783a986e928,2026-04-19T04:55:32.613095+00:00,ZB -31931511,Ruvimbo Mhlanga,ZB Bank,FBC-30868105,Kudzai Madondo,FBC Bank,957.48,USD,Medical aid premium,bank
+4dfdade7-485f-4572-9a50-c74460a47343,2026-04-19T06:56:34.613095+00:00,CBZ-52339391,Blessing Mukamuri,CBZ Bank,ZB -31931511,Ruvimbo Mhlanga,ZB Bank,1004.97,USD,Insurance premium,bank
+e4be308a-1c64-4ef3-8314-e63acdb85005,2026-04-19T08:32:30.613095+00:00,FBC-94374605,Anesu Nyathi,FBC Bank,+263797700828,Shamiso Chigumba,EcoCash,1050.7,USD,Electricity ZESA token,mobile_money
+33b4ad78-4039-4911-83c4-48d10906302c,2026-04-19T14:49:14.613095+00:00,ZB -28728463,Rumbi Mutasa,ZB Bank,CBZ-31429110,Tapiwa Dube,CBZ Bank,1316.17,USD,Medical aid premium,bank
+9e2325ef-c9d9-471f-bce3-3b9bcd8d926c,2026-04-19T15:16:57.613095+00:00,STA-58181396,Shamiso Marufu,Stanbic Bank,FBC-15831819,Ruvimbo Chiwenga,FBC Bank,1322.72,USD,Salary payment,bank
+7e67a5de-3829-42ee-aeb4-0a5abf6d42b1,2026-04-19T16:43:36.613095+00:00,ZB -31931511,Ruvimbo Mhlanga,ZB Bank,ZB -28728463,Rumbi Mutasa,ZB Bank,743.99,USD,Electricity ZESA token,bank
+d60449a9-68b4-4353-87ac-3e2bdc0f6f7a,2026-04-19T17:41:13.613095+00:00,STA-60806024,Tafadzwa Chiwenga,Stanbic Bank,+263785218028,Privilege Chirwa,InnBucks,675.68,USD,Insurance premium,mobile_money
+e29d4e39-bde8-4a21-8fc4-116fe6e43169,2026-04-19T18:39:18.613095+00:00,CBZ-31429110,Tapiwa Dube,CBZ Bank,STA-60806024,Tafadzwa Chiwenga,Stanbic Bank,476.74,USD,Funeral cover,bank
+7aa9dd36-a31d-4063-89a5-3ad49a0775f7,2026-04-20T00:03:51.613095+00:00,STE-78387461,Simbarashe Ncube,Steward Bank,ZB -77827638,Anesu Moyo,ZB Bank,685.85,USD,Family support,bank
+04dab7fd-2c78-481f-ac62-171593bb20fc,2026-04-20T02:40:17.613095+00:00,ZB -70291817,Hope Mukamuri,ZB Bank,ZB -99949389,Munyaradzi Zhou,ZB Bank,1263.3,USD,Funeral cover,bank
+0900e088-53f0-46e6-95b7-7ffa71eeb002,2026-04-20T02:56:00.613095+00:00,ZB -77827638,Anesu Moyo,ZB Bank,+263792458591,Hope Mhlanga,InnBucks,1132.58,USD,Rent payment Avondale,mobile_money
+9520d6ce-ecf9-4253-bc55-77445a0f32d5,2026-04-20T03:58:35.613095+00:00,+263777402509,Anesu Banda,EcoCash,+263773396987,Munyaradzi Sibanda,OneMoney,1446.72,USD,Funeral cover,mobile_money
+abee36e6-65e6-4f06-92bf-2040f3bd7b46,2026-04-20T06:47:51.613095+00:00,ZB -99949389,Munyaradzi Zhou,ZB Bank,NED-87490893,Kudzai Zhou,Nedbank ZW,75000.0,USD,Shell company invoice payment offshore,bank
+35a6dbf4-35d3-4835-b395-177273ec2d2d,2026-04-20T07:02:51.613095+00:00,NED-87490893,Kudzai Zhou,Nedbank ZW,ZB -70291817,Hope Mukamuri,ZB Bank,71250.0,USD,Smurfing settlement under threshold,bank
+11e71f12-f960-43a1-95b3-e2949ec82f56,2026-04-20T07:17:51.613095+00:00,ZB -70291817,Hope Mukamuri,ZB Bank,FBC-20709497,Tinashe Chirwa,FBC Bank,67687.5,USD,Urgent transfer offshore consultancy,bank
+b5c54bbe-01a8-4908-ac39-40f923594bdc,2026-04-20T07:32:51.613095+00:00,FBC-20709497,Tinashe Chirwa,FBC Bank,NED-31831063,Shamiso Dube,Nedbank ZW,64303.12,USD,Crypto trade urgent settlement,bank
+5ff8020a-8965-4fac-90b9-2a5944f46f89,2026-04-20T13:37:02.613095+00:00,+263773396987,Munyaradzi Sibanda,OneMoney,CBZ-24716857,Farai Mutasa,CBZ Bank,236.42,USD,Medical aid premium,mobile_money
+5ef06e55-b952-4ab7-a30b-10c3da70c7c5,2026-04-20T15:05:00.613095+00:00,ZB -31931511,Ruvimbo Mhlanga,ZB Bank,ZB -28728463,Rumbi Mutasa,ZB Bank,884.52,USD,Rent payment Avondale,bank
+478901e9-e238-4c5e-9563-22a48df967d8,2026-04-20T15:16:14.613095+00:00,NED-38538251,Simbarashe Mhlanga,Nedbank ZW,+263785218028,Privilege Chirwa,InnBucks,1122.54,USD,Funeral cover,mobile_money
+cc31cbf9-3978-4465-9d49-b6d367321857,2026-04-20T17:24:58.613095+00:00,+263785218028,Privilege Chirwa,InnBucks,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,1499.86,USD,Electricity ZESA token,mobile_money
+96d2579a-c08c-4681-a7af-8cf227e6f414,2026-04-20T19:18:57.613095+00:00,NED-31831063,Shamiso Dube,Nedbank ZW,ZB -70291817,Hope Mukamuri,ZB Bank,1249.78,USD,Medical aid premium,bank
+685dd9ae-0518-46d0-bc59-86f63252edfc,2026-04-20T20:09:56.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -77827638,Anesu Moyo,ZB Bank,1063.22,USD,Salary payment,bank
+2d800e3d-c6c9-496a-95c0-af0a91ea33f4,2026-04-20T21:05:44.613095+00:00,FBC-95899313,Privilege Chigumba,FBC Bank,+263797700828,Shamiso Chigumba,EcoCash,410.02,USD,Medical aid premium,mobile_money
+df9e3449-bdcd-4561-918d-049d9a54b4a4,2026-04-21T00:42:25.613095+00:00,FBC-95899313,Privilege Chigumba,FBC Bank,NED-38538251,Simbarashe Mhlanga,Nedbank ZW,1460.89,USD,School fees term 1,bank
+6fa8eae4-8151-408a-93a8-b3adb758a256,2026-04-21T05:25:43.613095+00:00,NED-87490893,Kudzai Zhou,Nedbank ZW,STA-60806024,Tafadzwa Chiwenga,Stanbic Bank,225.29,USD,Salary payment,bank
+d72e65aa-a322-42f7-be3b-a1c6080ed01a,2026-04-21T06:13:42.613095+00:00,ZB -77827638,Anesu Moyo,ZB Bank,STA-16150444,Tinashe Madondo,Stanbic Bank,608.64,USD,Family support,bank
+f2ebd760-8dfe-4365-b385-f8bf9dddae05,2026-04-21T07:39:01.613095+00:00,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,STA-38317637,Hope Nyathi,Stanbic Bank,1093.68,USD,Grocery purchase Pick n Pay,bank
+081a4a96-f674-4f5d-8651-60689045f69b,2026-04-21T17:12:15.613095+00:00,FBC-30868105,Kudzai Madondo,FBC Bank,STE-78387461,Simbarashe Ncube,Steward Bank,1420.54,USD,School fees term 1,bank
+016adced-9858-4b74-8c5d-b88c78e1aa01,2026-04-21T17:17:16.613095+00:00,ZB -70291817,Hope Mukamuri,ZB Bank,ZB -77827638,Anesu Moyo,ZB Bank,808.76,USD,Funeral cover,bank
+f5dbb96f-79db-4394-a1bf-2abb9fa460d5,2026-04-21T18:13:23.613095+00:00,ZB -31931511,Ruvimbo Mhlanga,ZB Bank,NED-38538251,Simbarashe Mhlanga,Nedbank ZW,1204.34,USD,Rent payment Avondale,bank
+3bcce281-244c-4d87-85d0-b3351005911d,2026-04-21T18:14:03.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,CBZ-31429110,Tapiwa Dube,CBZ Bank,1024.16,USD,Funeral cover,bank
+446dfff2-d677-4498-a405-1d9a0c7a919e,2026-04-21T19:08:57.613095+00:00,STE-78387461,Simbarashe Ncube,Steward Bank,+263797700828,Shamiso Chigumba,EcoCash,656.18,USD,Family support,mobile_money
+46056c4f-eb5c-48e3-9c9c-9b78fce4aa15,2026-04-22T00:20:35.613095+00:00,STA-58181396,Shamiso Marufu,Stanbic Bank,STE-78387461,Simbarashe Ncube,Steward Bank,677.85,USD,Rent payment Avondale,bank
+5d80e05f-e85a-411b-b5eb-9c8d731df210,2026-04-22T00:53:37.613095+00:00,FBC-94374605,Anesu Nyathi,FBC Bank,+263797700828,Shamiso Chigumba,EcoCash,493.63,USD,Insurance premium,mobile_money
+15781ca0-e084-4d10-998e-27930988a6ba,2026-04-22T01:17:05.613095+00:00,STA-91756179,Nyasha Chiwenga,Stanbic Bank,STA-16150444,Tinashe Madondo,Stanbic Bank,1246.94,USD,Grocery purchase Pick n Pay,bank
+238d953e-abcb-49f1-a8f8-c55941362416,2026-04-22T04:58:01.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,CBZ-52339391,Blessing Mukamuri,CBZ Bank,401.48,USD,Internet bill ZOL,bank
+72a429fd-31d0-4885-8ec0-24f3614cec86,2026-04-22T08:58:45.613095+00:00,STA-61019678,Munyaradzi Banda,Stanbic Bank,+263792458591,Hope Mhlanga,InnBucks,1461.57,USD,Funeral cover,mobile_money
+73345c05-c827-4780-9546-31c258f91468,2026-04-22T10:12:07.613095+00:00,CBZ-24716857,Farai Mutasa,CBZ Bank,ZB -85345555,Privilege Mukamuri,ZB Bank,1190.43,USD,Grocery purchase Pick n Pay,bank
+70d2b02e-4db0-4fa7-8c80-b3bd85f4beec,2026-04-22T13:11:53.613095+00:00,+263777402509,Anesu Banda,EcoCash,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,1003.46,USD,Funeral cover,mobile_money
+894bdf9a-b9ea-4aa9-ad11-bc2b1be4a561,2026-04-22T15:01:35.613095+00:00,NED-31831063,Shamiso Dube,Nedbank ZW,STA-58181396,Shamiso Marufu,Stanbic Bank,660.09,USD,Funeral cover,bank
+f800d39b-931b-4b68-a6e8-18114f9b5ff8,2026-04-22T19:37:47.613095+00:00,ZB -31931511,Ruvimbo Mhlanga,ZB Bank,+263794335942,Privilege Mhlanga,InnBucks,1228.54,USD,Rent payment Avondale,mobile_money
+330176b8-66c1-4898-a205-596fa8fac240,2026-04-22T21:39:59.613095+00:00,+263773396987,Munyaradzi Sibanda,OneMoney,ZB -77827638,Anesu Moyo,ZB Bank,1423.57,USD,Electricity ZESA token,mobile_money
+f9572faa-7c11-49f0-9029-067f7ffc2e38,2026-04-22T21:49:22.613095+00:00,+263777402509,Anesu Banda,EcoCash,STA-91756179,Nyasha Chiwenga,Stanbic Bank,1402.39,USD,Rent payment Avondale,mobile_money
+adeb458c-a521-480c-82ca-cd9ccb5226e5,2026-04-22T23:38:13.613095+00:00,FBC-30868105,Kudzai Madondo,FBC Bank,+263797700828,Shamiso Chigumba,EcoCash,1003.03,USD,Funeral cover,mobile_money
+826da216-9bd0-450b-8aa7-f43c760a3f5e,2026-04-23T01:02:30.613095+00:00,ZB -77827638,Anesu Moyo,ZB Bank,NED-31831063,Shamiso Dube,Nedbank ZW,355.57,USD,Electricity ZESA token,bank
+552ff907-5e0e-42c4-b4a4-29ff8d45421b,2026-04-23T02:31:16.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,ZB -99949389,Munyaradzi Zhou,ZB Bank,433.94,USD,Insurance premium,bank
+f3ea25c3-fe1e-49aa-8a09-ef21c86495a7,2026-04-23T04:48:46.613095+00:00,CBZ-31429110,Tapiwa Dube,CBZ Bank,ZB -99949389,Munyaradzi Zhou,ZB Bank,763.15,USD,Insurance premium,bank
+3eb3c188-84bf-4c2e-bb06-e7d9dea1eaf0,2026-04-23T05:29:39.613095+00:00,+263797700828,Shamiso Chigumba,EcoCash,FBC-15831819,Ruvimbo Chiwenga,FBC Bank,80.18,USD,Insurance premium,mobile_money
+f79b97e7-776f-400d-93dc-fecfdae4d3f3,2026-04-23T07:10:51.613095+00:00,STA-91756179,Nyasha Chiwenga,Stanbic Bank,FBC-95899313,Privilege Chigumba,FBC Bank,10000.0,USD,Quick deposit then split transfers,bank
+a78e3d0d-1709-4d86-9e27-09f743dc114b,2026-04-23T07:15:51.613095+00:00,STA-91756179,Nyasha Chiwenga,Stanbic Bank,+263773396987,Munyaradzi Sibanda,OneMoney,10000.0,USD,Quick deposit then split transfers,mobile_money
+8cfabab2-c8d1-4ce6-bd08-2717da6a1400,2026-04-23T07:18:51.613095+00:00,STA-91756179,Nyasha Chiwenga,Stanbic Bank,STA-38317637,Hope Nyathi,Stanbic Bank,10000.0,USD,Quick deposit then split transfers,bank
+c924c330-b900-48ab-be10-d83932eccdc5,2026-04-23T07:20:51.613095+00:00,STA-91756179,Nyasha Chiwenga,Stanbic Bank,ZB -31931511,Ruvimbo Mhlanga,ZB Bank,10000.0,USD,Quick deposit then split transfers,bank
+ef8cd31b-8f2c-4d2d-918b-471f092f0425,2026-04-23T07:26:51.613095+00:00,STA-91756179,Nyasha Chiwenga,Stanbic Bank,NED-17507864,Tinashe Chirwa,Nedbank ZW,10000.0,USD,Quick deposit then split transfers,bank
+6a96b952-cf78-424a-bfe8-bd164e5c92cb,2026-04-23T07:27:51.613095+00:00,STA-91756179,Nyasha Chiwenga,Stanbic Bank,NED-38538251,Simbarashe Mhlanga,Nedbank ZW,10000.0,USD,Quick deposit then split transfers,bank
+90458e9d-e682-4237-be7d-9f6bb1861389,2026-04-23T07:29:50.613095+00:00,STE-78387461,Simbarashe Ncube,Steward Bank,+263777402509,Anesu Banda,EcoCash,518.92,USD,Funeral cover,mobile_money
+818e8156-f047-4250-8f70-6568ed89242b,2026-04-23T07:32:59.613095+00:00,NED-23718431,Tafadzwa Mhlanga,Nedbank ZW,FBC-94374605,Anesu Nyathi,FBC Bank,101.02,USD,Insurance premium,bank
+89302c38-b3f1-46da-8d63-d566b9d53b49,2026-04-23T07:35:51.613095+00:00,STA-91756179,Nyasha Chiwenga,Stanbic Bank,CBZ-52339391,Blessing Mukamuri,CBZ Bank,10000.0,USD,Quick deposit then split transfers,bank
+46374d46-540c-46b1-9bc6-276202231449,2026-04-23T07:42:22.613095+00:00,STE-66661351,Anesu Ncube,Steward Bank,STA-38317637,Hope Nyathi,Stanbic Bank,1020.88,USD,Funeral cover,bank
+6896363f-558c-4738-881f-b3e1201c7149,2026-04-23T13:03:33.613095+00:00,CBZ-24716857,Farai Mutasa,CBZ Bank,FBC-94374605,Anesu Nyathi,FBC Bank,535.46,USD,Medical aid premium,bank
+b1426572-ff8e-4870-9254-229427455eed,2026-04-23T14:32:23.613095+00:00,NED-23718431,Tafadzwa Mhlanga,Nedbank ZW,STA-61019678,Munyaradzi Banda,Stanbic Bank,426.23,USD,Rent payment Avondale,bank
+83124d16-007c-4f3a-b43e-7bc20a5ef729,2026-04-23T16:10:29.613095+00:00,FBC-20709497,Tinashe Chirwa,FBC Bank,+263792458591,Hope Mhlanga,InnBucks,167.06,USD,Insurance premium,mobile_money
+c451d2e1-ac9c-4180-8b55-ef0f8c6f16ad,2026-04-23T18:29:17.613095+00:00,NED-87490893,Kudzai Zhou,Nedbank ZW,STA-60806024,Tafadzwa Chiwenga,Stanbic Bank,1225.8,USD,Internet bill ZOL,bank
+2b04c5a7-ff64-4263-b73c-024ea3d25caf,2026-04-23T19:21:17.613095+00:00,ZB -31931511,Ruvimbo Mhlanga,ZB Bank,STA-61019678,Munyaradzi Banda,Stanbic Bank,1297.21,USD,Medical aid premium,bank
+7207e617-39df-49a2-89c8-a3497370e8d6,2026-04-23T21:11:26.613095+00:00,STA-60806024,Tafadzwa Chiwenga,Stanbic Bank,ZB -70291817,Hope Mukamuri,ZB Bank,149.91,USD,Insurance premium,bank
+2e142aac-873d-4577-9a40-180073b04c1c,2026-04-24T02:14:56.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,STA-91756179,Nyasha Chiwenga,Stanbic Bank,735.47,USD,Grocery purchase Pick n Pay,bank
+51fcff86-aee9-4ae6-b052-0938317d3a91,2026-04-24T02:58:18.613095+00:00,+263777402509,Anesu Banda,EcoCash,+263785218028,Privilege Chirwa,InnBucks,1031.85,USD,Rent payment Avondale,mobile_money
+5af5900e-fc06-4475-8c1a-291d2ac5820b,2026-04-24T03:13:20.613095+00:00,NED-23718431,Tafadzwa Mhlanga,Nedbank ZW,+263773396987,Munyaradzi Sibanda,OneMoney,195.53,USD,Medical aid premium,mobile_money
+cc33db33-0a2e-4ad4-af6f-15f8c4f70912,2026-04-24T05:46:02.613095+00:00,NED-87490893,Kudzai Zhou,Nedbank ZW,STA-38317637,Hope Nyathi,Stanbic Bank,1039.22,USD,Medical aid premium,bank
+c9e95bd3-aef2-4c69-99c8-c222bf475e90,2026-04-24T06:03:45.613095+00:00,FBC-30868105,Kudzai Madondo,FBC Bank,FBC-95899313,Privilege Chigumba,FBC Bank,1321.89,USD,Rent payment Avondale,bank
+27fc533a-1548-4b24-b888-3406ca4e7721,2026-04-24T11:33:55.613095+00:00,FBC-94374605,Anesu Nyathi,FBC Bank,STA-38317637,Hope Nyathi,Stanbic Bank,1354.15,USD,School fees term 1,bank
+6b84f427-4d7a-4d06-8f2d-3110cc6bda10,2026-04-24T11:34:29.613095+00:00,ZB -85345555,Privilege Mukamuri,ZB Bank,STA-16150444,Tinashe Madondo,Stanbic Bank,1126.96,USD,Family support,bank
+3e7588d7-ce0d-4009-b933-01248de1a0f1,2026-04-24T12:23:07.613095+00:00,CBZ-52339391,Blessing Mukamuri,CBZ Bank,ZB -28728463,Rumbi Mutasa,ZB Bank,1285.81,USD,Family support,bank
+5a09b724-36b1-4bc6-bb1d-e3d268459bfe,2026-04-24T13:55:54.613095+00:00,+263785218028,Privilege Chirwa,InnBucks,+263794335942,Privilege Mhlanga,InnBucks,211.87,USD,Rent payment Avondale,mobile_money
+558cf378-de36-4c0d-bd16-b56722cd5d45,2026-04-24T17:58:52.613095+00:00,STE-78387461,Simbarashe Ncube,Steward Bank,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,1414.4,USD,Medical aid premium,bank
+f06f69cc-ce52-4f4b-908e-c82e32617ab8,2026-04-24T22:55:14.613095+00:00,ZB -99949389,Munyaradzi Zhou,ZB Bank,NED-87490893,Kudzai Zhou,Nedbank ZW,338.27,USD,Rent payment Avondale,bank
+f9ba4195-768d-48eb-88bb-29e4d0407004,2026-04-25T03:21:12.613095+00:00,CBZ-52339391,Blessing Mukamuri,CBZ Bank,FBC-15831819,Ruvimbo Chiwenga,FBC Bank,925.19,USD,Medical aid premium,bank
+d19f44e1-9497-491f-bcfa-6834879765cb,2026-04-25T03:55:37.613095+00:00,FBC-30868105,Kudzai Madondo,FBC Bank,STE-78387461,Simbarashe Ncube,Steward Bank,368.28,USD,Internet bill ZOL,bank
+d09f2eb7-db5b-45a1-8df7-4653cb616416,2026-04-25T11:32:55.613095+00:00,+263785218028,Privilege Chirwa,InnBucks,+263797700828,Shamiso Chigumba,EcoCash,626.58,USD,Rent payment Avondale,mobile_money
+a4ef4616-7ea0-4309-b68d-aae5600c11e7,2026-04-25T11:43:30.613095+00:00,STA-38317637,Hope Nyathi,Stanbic Bank,NED-31831063,Shamiso Dube,Nedbank ZW,833.85,USD,Rent payment Avondale,bank
+8d40d796-7d25-4abb-9ff3-247180c0e031,2026-04-25T22:00:33.613095+00:00,ZB -99949389,Munyaradzi Zhou,ZB Bank,STA-38317637,Hope Nyathi,Stanbic Bank,1492.75,USD,Electricity ZESA token,bank
+cf3fabfe-3992-4f81-ae22-c7e57239318e,2026-04-25T23:02:30.613095+00:00,+263777402509,Anesu Banda,EcoCash,CBZ-24716857,Farai Mutasa,CBZ Bank,941.99,USD,Medical aid premium,mobile_money
+5d496868-807c-4f05-9ffe-2a7c510e0303,2026-04-26T00:56:23.613095+00:00,STA-61019678,Munyaradzi Banda,Stanbic Bank,+263797700828,Shamiso Chigumba,EcoCash,378.46,USD,Grocery purchase Pick n Pay,mobile_money
+213306be-7d79-4a54-ae67-d2257c9d6df0,2026-04-26T02:33:39.613095+00:00,ZB -85345555,Privilege Mukamuri,ZB Bank,STE-66661351,Anesu Ncube,Steward Bank,642.98,USD,Funeral cover,bank
+52839f03-d33b-44b6-a514-e3a2404edd1e,2026-04-26T07:06:38.613095+00:00,ZB -31931511,Ruvimbo Mhlanga,ZB Bank,CBZ-31429110,Tapiwa Dube,CBZ Bank,443.78,USD,School fees term 1,bank
+4f17921d-973e-4524-b5e5-52555abb1248,2026-04-26T08:42:20.613095+00:00,CBZ-13999315,Tafadzwa Chigumba,CBZ Bank,STA-16150444,Tinashe Madondo,Stanbic Bank,1376.62,USD,Grocery purchase Pick n Pay,bank
+38ff14c2-a387-4c2d-971c-d71508493238,2026-04-26T09:09:00.613095+00:00,STA-16150444,Tinashe Madondo,Stanbic Bank,FBC-20709497,Tinashe Chirwa,FBC Bank,596.7,USD,Medical aid premium,bank
+4699ed4e-1240-4bdd-8d7a-36bec647aa87,2026-04-26T13:25:02.613095+00:00,ZB -70291817,Hope Mukamuri,ZB Bank,+263773396987,Munyaradzi Sibanda,OneMoney,332.17,USD,Funeral cover,mobile_money
+4c2f8b3c-a359-44b2-9905-96478c818f7e,2026-04-26T16:59:39.613095+00:00,STA-58181396,Shamiso Marufu,Stanbic Bank,ZB -70291817,Hope Mukamuri,ZB Bank,576.9,USD,Salary payment,bank
+a17f89fe-6595-46af-a273-bd694b563698,2026-04-26T20:08:30.613095+00:00,STA-16150444,Tinashe Madondo,Stanbic Bank,NED-38538251,Simbarashe Mhlanga,Nedbank ZW,735.42,USD,Rent payment Avondale,bank
+0141a89c-42f9-421b-b3ea-55549bc25489,2026-04-26T23:12:32.613095+00:00,+263794335942,Privilege Mhlanga,InnBucks,STA-16150444,Tinashe Madondo,Stanbic Bank,253.64,USD,Internet bill ZOL,mobile_money
+ccca8c4d-729c-41d3-b3fb-ac87199e3912,2026-04-27T04:21:38.613095+00:00,STE-66661351,Anesu Ncube,Steward Bank,ZB -31931511,Ruvimbo Mhlanga,ZB Bank,23.91,USD,Insurance premium,bank
+40b6bf7b-f5ae-42cc-93f3-f87caf9a3f13,2026-04-27T14:32:36.613095+00:00,STA-13356886,Munyaradzi Chigumba,Stanbic Bank,FBC-20709497,Tinashe Chirwa,FBC Bank,1457.97,USD,School fees term 1,bank
+329d4121-babe-4560-9ef6-22a2c392d831,2026-04-27T16:34:40.613095+00:00,+263797700828,Shamiso Chigumba,EcoCash,ZB -85345555,Privilege Mukamuri,ZB Bank,666.03,USD,Rent payment Avondale,mobile_money
+2ad5a49c-6be4-4ef0-8d0d-a7430772d6b1,2026-04-27T18:18:54.613095+00:00,ZB -77827638,Anesu Moyo,ZB Bank,+263792458591,Hope Mhlanga,InnBucks,1290.15,USD,Grocery purchase Pick n Pay,mobile_money
+18fe5962-a181-471c-83a3-44ce02c84ba7,2026-04-27T19:04:12.613095+00:00,STE-78387461,Simbarashe Ncube,Steward Bank,STA-58181396,Shamiso Marufu,Stanbic Bank,989.98,USD,Medical aid premium,bank
+0e1cea7e-605c-4005-956a-a9ad8cbdd677,2026-04-28T00:25:14.613095+00:00,STA-60806024,Tafadzwa Chiwenga,Stanbic Bank,FBC-94374605,Anesu Nyathi,FBC Bank,1109.21,USD,Medical aid premium,bank
+2b345a14-ffac-45e9-8b05-a112a3dc8129,2026-04-28T03:45:03.613095+00:00,NED-23718431,Tafadzwa Mhlanga,Nedbank ZW,NED-17507864,Tinashe Chirwa,Nedbank ZW,1144.95,USD,Funeral cover,bank
+9139207a-6b74-4d01-ac4e-d5a26f41a5a4,2026-04-28T08:18:21.613095+00:00,+263773396987,Munyaradzi Sibanda,OneMoney,FBC-15831819,Ruvimbo Chiwenga,FBC Bank,1102.02,USD,Medical aid premium,mobile_money
+e236f634-df4b-47a9-9825-74b8e8c6513b,2026-04-28T08:55:26.613095+00:00,STA-16150444,Tinashe Madondo,Stanbic Bank,STA-61019678,Munyaradzi Banda,Stanbic Bank,1005.12,USD,Rent payment Avondale,bank
+473bb19f-8e97-4837-bcc3-63da920b8016,2026-04-28T16:40:00.613095+00:00,NED-23718431,Tafadzwa Mhlanga,Nedbank ZW,+263785218028,Privilege Chirwa,InnBucks,58.86,USD,Electricity ZESA token,mobile_money
+b37ea24d-8fa6-4841-9795-15109c9faac3,2026-04-28T17:04:25.613095+00:00,ZB -70291817,Hope Mukamuri,ZB Bank,FBC-30868105,Kudzai Madondo,FBC Bank,400.38,USD,Grocery purchase Pick n Pay,bank
+d8cf8dac-900d-4e0c-a756-5485d133a6d6,2026-04-28T22:45:54.613095+00:00,STA-91756179,Nyasha Chiwenga,Stanbic Bank,ZB -77827638,Anesu Moyo,ZB Bank,18.93,USD,Family support,bank
+0fb33076-7d24-4a10-8b40-beb2bdabdbdf,2026-04-29T00:03:57.613095+00:00,+263792458591,Hope Mhlanga,InnBucks,+263794335942,Privilege Mhlanga,InnBucks,631.74,USD,Family support,mobile_money
+9c5a4a01-0cc3-498c-bd34-8f45f22506f8,2026-04-29T05:12:50.613095+00:00,FBC-30868105,Kudzai Madondo,FBC Bank,CBZ-24716857,Farai Mutasa,CBZ Bank,158.37,USD,Salary payment,bank
